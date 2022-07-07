@@ -1,8 +1,6 @@
 import {
-  Box,
   Button,
   Flex,
-  ColorMode,
   Image,
   useColorMode,
 } from "@hope-ui/solid";

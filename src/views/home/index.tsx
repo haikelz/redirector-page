@@ -1,14 +1,14 @@
-import { Button, Flex, Heading, Image } from "@hope-ui/solid";
+import { Flex, Heading, Image } from "@hope-ui/solid";
+import { createSignal } from "solid-js";
 import Time from "../../components/time";
 import ListWeb from "../../components/listWeb";
 import ImageProfile from "../../components/image";
 import Desc from "../../components/desc";
-import { createSignal } from "solid-js";
 
 const Home = () => {
   const [isOpen, setIsOpen] = createSignal(false);
-
   const handleClick = () => setIsOpen(!isOpen());
+
   return (
     <Flex
       justifyContent={"center"}
@@ -21,7 +21,6 @@ const Home = () => {
         <Heading fontSize={"$3xl"} fontWeight={"bold"}>
           Yuk Produktif!
         </Heading>
-
         <Image
           src={"/img/chevron-down.svg"}
           width={"35px"}

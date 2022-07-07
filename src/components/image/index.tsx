@@ -4,11 +4,13 @@ const ImageProfile = () => {
   return (
     <Flex justifyContent={"center"}>
       <Image
-        src="/img/random.jpeg"
-        alt="waifu"
+        src="/img/Nord-Green.jpeg"
+        alt="gambar"
         width="250px"
+        objectFit={"cover"}
         height="250px"
         borderRadius={"$full"}
+        objectPosition={"top"}
       />
     </Flex>
   );

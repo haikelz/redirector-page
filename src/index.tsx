@@ -1,7 +1,6 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
 import { HopeProvider } from "@hope-ui/solid";
-import { useStyleConfig } from "@hope-ui/solid";
 import "./index.css";
 import App from "./App";
 

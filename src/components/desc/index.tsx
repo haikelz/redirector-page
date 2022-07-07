@@ -1,6 +1,7 @@
 import { Box, Text } from "@hope-ui/solid";
+import { open } from "../../types";
 
-const Desc = ({ isOpen }: any) => {
+const Desc = ({ isOpen }: open) => {
   return (
     <Box textAlign={"center"}>
       {!isOpen() ? (
