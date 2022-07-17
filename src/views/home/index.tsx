@@ -19,7 +19,7 @@ const Home = () => {
       <ImageProfile />
       <Flex justifyContent={"center"}>
         <Heading fontSize={"$3xl"} fontWeight={"bold"}>
-          Yuk Produktif!
+          Haikel
         </Heading>
         <Image
           src={"/img/chevron-down.svg"}
